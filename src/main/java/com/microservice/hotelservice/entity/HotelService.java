@@ -1,5 +1,0 @@
-package com.microservice.hotelservice.entity;
-
-public class HotelService {
-
-}
