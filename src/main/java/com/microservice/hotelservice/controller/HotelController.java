@@ -51,7 +51,7 @@ public class HotelController {
 	
 	@DeleteMapping("/RemoveHotelById/{hotelId}")
 	ResponseEntity<Hotel> RemoveHotelDetailsById(@PathVariable String hotelId){
-		String removeHotel = hotelInterface.deleteHotel(hotelId);
+		hotelInterface.deleteHotel(hotelId);
 		return ResponseEntity.noContent().build();
 	}
 	

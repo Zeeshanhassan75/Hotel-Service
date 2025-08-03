@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import com.microservice.hotelservice.hotelrepository.HotelRepository;
 import com.microservice.hotelservice.Interface.HotelInterface;

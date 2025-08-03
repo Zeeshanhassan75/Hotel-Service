@@ -2,7 +2,6 @@ package com.microservice.hotelservice.Payload;
 
 import org.springframework.http.HttpStatus;
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
